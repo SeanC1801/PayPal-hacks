@@ -44,7 +44,7 @@ Before starting work, make sure your branch contains the latest approved changes
 - `src/components/` - shared frontend components such as the header and status badges
 - `src/contracts/` - Zod schemas shared by frontend and backend
 - `src/server/routers/` - tRPC procedures and fixture-backed backend work
-- `docs/` - MVP overview, Week 1 assignments, decisions, learnings, and wireframes
+- `docs/` - product overview, planning, team workflow, logs, and wireframes (start at `docs/README.md`)
 
 The `/budget` and `/approvals` routes are retained as future placeholders and are not part of the Week 1 header.
 
@@ -52,10 +52,6 @@ Generated folders such as `node_modules/`, `.next/`, coverage output, local envi
 
 ## Team documents
 
-- `docs/MVP-Overview.md` - product flow and MVP boundaries
-- `docs/Week-1-Frontend-Tasks.md` - frontend assignments
-- `docs/Week-1-Backend-Tasks.md` - backend assignments
-- `docs/decisions.md` - decisions that affect the whole team
-- `docs/learnings.md` - setup notes, blockers, and follow-up work
+See the index in [`docs/README.md`](docs/README.md).
 
 License: MIT

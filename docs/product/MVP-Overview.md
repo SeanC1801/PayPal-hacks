@@ -100,9 +100,9 @@ OwnerProfile
 | `src/server/routers/` | tRPC backend procedures |
 | `src/server/db/` | Database schema and access (not created yet) |
 | `scripts/` | Setup and verification scripts, such as the PayPal spike (not created yet) |
-| `docs/` | Decisions, learnings, wireframes, team documents |
+| `docs/` | Product, planning, team workflow, logs, wireframes |
 | `.github/workflows/` | Continuous integration |
 | `.env.example` | Required environment variable names, no secrets |
 | `README.md` | Setup and project overview |
 
-Week 1 detail is in `Week-1-Frontend-Tasks.md` and `Week-1-Backend-Tasks.md`.
+Week 1 detail is in `docs/planning/week-1/Frontend-Tasks.md` and `docs/planning/week-1/Backend-Tasks.md`.

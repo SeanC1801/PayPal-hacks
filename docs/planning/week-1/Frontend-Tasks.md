@@ -234,7 +234,7 @@ Task 1.8 in `tasks.md` is "App shell, navigation, low-fi wireframes". It is spli
 | `src/server/routers/` | tRPC procedures and fixtures | Read-only. Ask Cuison or Flores for changes |
 | `src/server/db/` | Database schema and access | Backend only |
 | `scripts/` | Setup and verification scripts | Backend only |
-| `docs/` | Decisions, learnings, team docs | Put wireframes in `docs/wireframes/` |
+| `docs/` | Product, planning, team workflow, logs | Put wireframes in `docs/wireframes/` |
 | `.github/workflows/` | CI | Guevarra only |
 | `.env.example` | Env variable names, no secrets | Ask before adding. Never commit real values |
 | `README.md` | Setup and overview | Guevarra |

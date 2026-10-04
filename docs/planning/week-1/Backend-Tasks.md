@@ -168,10 +168,10 @@ Do not push directly to `main`. The initial contracts are the baseline for Week 
 2. Create a sandbox app with Payouts enabled. Put the client id and secret in `.env.local`.
 3. Write `scripts/paypal-spike.ts` that gets an OAuth token, creates one payout batch with a unique `sender_batch_id`, and polls the batch until SUCCESS or FAILED.
 4. Re-send the same `sender_batch_id` and confirm PayPal rejects it.
-5. Record the time from PENDING to SUCCESS, setup gotchas and errors in `docs/learnings.md`.
+5. Record the time from PENDING to SUCCESS, setup gotchas and errors in `docs/log/learnings.md`.
 6. If blocked for more than 4 hours, tell Guevarra.
 
-**Files:** `scripts/paypal-spike.ts`, `docs/learnings.md`
+**Files:** `scripts/paypal-spike.ts`, `docs/log/learnings.md`
 **Expected output:** a payout that reaches SUCCESS and shows in the sandbox personal account.
 **Definition of Done:** merged PR, no secrets in code or screenshots, notes written.
 **Checklist item:** PayPal sandbox payout reaches SUCCESS (sandbox only; no production payments)
@@ -209,7 +209,7 @@ Do not push directly to `main`. The initial contracts are the baseline for Week 
 | `src/server/db/` | Database schema and access | **Backend.** Cuison leads 1.4 |
 | `scripts/` | Seed and PayPal spike | **Backend** |
 | `src/app/` | Frontend pages and routes | Frontend only. Do not edit; ask in a PR |
-| `docs/` | Decisions, learnings, team docs | Add notes to `learnings.md` |
+| `docs/` | Product, planning, team workflow, decision and learning logs | Add notes to `docs/log/learnings.md` |
 | `.github/workflows/` | CI | Guevarra. Tell him if a check must change |
 | `.env.example` | Env variable names, no secrets | Add new names here. Never commit values |
 | `README.md` | Setup and overview | Guevarra |
