@@ -1,9 +1,33 @@
 node_modules
 .next
 out
+.vercel
+coverage
+.cache
+.turbo
+
+# Local environment and secrets
 .env
 .env.local
 .env*.local
+
+# Generated TypeScript and build metadata
 *.tsbuildinfo
 next-env.d.ts
+
+# Operating system and editor files
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# Logs and local reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
